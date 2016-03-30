@@ -12,6 +12,11 @@
 		51041F411C8D46AE0037F7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51041F3F1C8D46AE0037F7B2 /* Main.storyboard */; };
 		51041F431C8D46AE0037F7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51041F421C8D46AE0037F7B2 /* Assets.xcassets */; };
 		51041F461C8D46AE0037F7B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51041F441C8D46AE0037F7B2 /* LaunchScreen.storyboard */; };
+		51041F4E1C8D471E0037F7B2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51041F4D1C8D471E0037F7B2 /* CustomTableViewCell.swift */; };
+		513EBEE71CAAA8C9003459FE /* SBGestureTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EBEE51CAAA8C9003459FE /* SBGestureTableView.swift */; };
+		513EBEE81CAAA8C9003459FE /* SBGestureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EBEE61CAAA8C9003459FE /* SBGestureTableViewCell.swift */; };
+		513EBEEB1CAAA8F2003459FE /* SBGestureTableViewCellAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EBEE91CAAA8F2003459FE /* SBGestureTableViewCellAction.swift */; };
+		513EBEEC1CAAA8F2003459FE /* SBGestureTableViewCellSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EBEEA1CAAA8F2003459FE /* SBGestureTableViewCellSideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		51041F421C8D46AE0037F7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51041F451C8D46AE0037F7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51041F471C8D46AE0037F7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51041F4D1C8D471E0037F7B2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		513EBEE51CAAA8C9003459FE /* SBGestureTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBGestureTableView.swift; sourceTree = "<group>"; };
+		513EBEE61CAAA8C9003459FE /* SBGestureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBGestureTableViewCell.swift; sourceTree = "<group>"; };
+		513EBEE91CAAA8F2003459FE /* SBGestureTableViewCellAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBGestureTableViewCellAction.swift; sourceTree = "<group>"; };
+		513EBEEA1CAAA8F2003459FE /* SBGestureTableViewCellSideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBGestureTableViewCellSideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				51041F3B1C8D46AE0037F7B2 /* AppDelegate.swift */,
 				51041F3D1C8D46AE0037F7B2 /* ViewController.swift */,
+				51041F4D1C8D471E0037F7B2 /* CustomTableViewCell.swift */,
+				513EBEE51CAAA8C9003459FE /* SBGestureTableView.swift */,
+				513EBEE61CAAA8C9003459FE /* SBGestureTableViewCell.swift */,
+				513EBEE91CAAA8F2003459FE /* SBGestureTableViewCellAction.swift */,
+				513EBEEA1CAAA8F2003459FE /* SBGestureTableViewCellSideView.swift */,
 				51041F3F1C8D46AE0037F7B2 /* Main.storyboard */,
 				51041F421C8D46AE0037F7B2 /* Assets.xcassets */,
 				51041F441C8D46AE0037F7B2 /* LaunchScreen.storyboard */,
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513EBEE81CAAA8C9003459FE /* SBGestureTableViewCell.swift in Sources */,
+				51041F4E1C8D471E0037F7B2 /* CustomTableViewCell.swift in Sources */,
+				513EBEEB1CAAA8F2003459FE /* SBGestureTableViewCellAction.swift in Sources */,
 				51041F3E1C8D46AE0037F7B2 /* ViewController.swift in Sources */,
+				513EBEEC1CAAA8F2003459FE /* SBGestureTableViewCellSideView.swift in Sources */,
+				513EBEE71CAAA8C9003459FE /* SBGestureTableView.swift in Sources */,
 				51041F3C1C8D46AE0037F7B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +304,7 @@
 				51041F4C1C8D46AE0037F7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
